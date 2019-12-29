@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/rss/course', function(){
+	dd(url('/'));
+});
+Route::get('/course/{id}' , 'CourseController@index')->name('getCourse');
