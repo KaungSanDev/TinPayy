@@ -10,10 +10,8 @@ $factory->define(Course::class, function (Faker $faker) {
 	$url = url('/course/');
     return [
      'name' => $faker->catchPhrase,
+     'course' => $faker->paragraph(30,true),
      'teacher_name' => $faker->name,
      'school_name' => $faker->company,
-     'photo_path' => 'https://source.unsplash.com/random',
-     'pdf_path' => url('/pdf/download'),
-     'link' => 	$url.'/'.$number,
     ];
 });

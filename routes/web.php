@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/rss/course', function(){
-	dd(url('/'));
-});
+//Rss feed route
+Route::feeds();
 Route::get('/course/{id}' , 'CourseController@index')->name('getCourse');
+Route::get('/pdf/download', 'PdfController@download')->name('getPDF');
