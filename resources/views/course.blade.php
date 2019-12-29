@@ -124,7 +124,7 @@
                         <!-- News Post -->
                         <div class="news_post">
                             <div class="news_post_image">
-                                <img src="https://source.unsplash.com/random" alt="#">
+                                <img src="https://source.unsplash.com/random/600x300" alt="#">
                             </div>
                             <div class="news_post_top d-flex flex-column flex-sm-row">
                                 <div class="news_post_date_container">
