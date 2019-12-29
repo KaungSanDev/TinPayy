@@ -15,6 +15,8 @@
 <link rel="stylesheet" type="text/css" href="{{secure_asset('plugins/OwlCarousel2-2.2.1/animate.css')}}">
 <link rel="stylesheet" type="text/css" href="{{secure_asset('styles/main_styles.css')}}">
 <link rel="stylesheet" type="text/css" href="{{secure_asset('styles/responsive.css')}}">
+<link rel="stylesheet" type="text/css" href="{{secure_asset('styles/news_post_styles.css')}}">
+<link rel="stylesheet" type="text/css" href="{{secure_asset('styles/news_post_responsive.css')}}">
 </head>
 <body>
 
@@ -467,6 +469,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="{{secure_asset('plugins/scrollTo/jquery.scrollTo.min.js')}}"></script>
 <script src="{{secure_asset('plugins/easing/easing.js')}}"></script>
 <script src="{{secure_asset('js/custom.js')}}"></script>
-
+<script src="{{secure_asset('js/news_post_custom.js')}}"></script>
 </body>
 </html>
