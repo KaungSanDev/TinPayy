@@ -124,7 +124,7 @@
                         <!-- News Post -->
                         <div class="news_post">
                             <div class="news_post_image">
-                                <img src="https://source.unsplash.com/random/600x300" alt="#">
+                                <img src="https://source.unsplash.com/random/600x300    " alt="#">
                             </div>
                             <div class="news_post_top d-flex flex-column flex-sm-row">
                                 <div class="news_post_date_container">
@@ -469,6 +469,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="{{secure_asset('plugins/scrollTo/jquery.scrollTo.min.js')}}"></script>
 <script src="{{secure_asset('plugins/easing/easing.js')}}"></script>
 <script src="{{secure_asset('js/custom.js')}}"></script>
-<script src="{{secure_assset('js/news_post_custom.js')}}"></script>
+<script src="{{secure_asset('js/news_post_custom.js')}}"></script>
 </body>
 </html>
