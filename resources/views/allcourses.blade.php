@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Course - Courses</title>
+    <title>TinPayy - Courses</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Course Project">
@@ -22,8 +22,8 @@
                 <!-- Logo -->
                 <div class="logo_container">
                     <div class="logo">
-                        <img src="images/logo.png" alt="">
-                        <span>course</span>
+                        <img src="{{secure_asset('images/logo.png')}}" alt="">
+                        <span>TinPayy</span>
                     </div>
                 </div>
 
